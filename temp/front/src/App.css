@@ -1,0 +1,56 @@
+/* App.css */
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.app-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-content {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.user-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.user-item:hover {
+  transform: translateY(-5px);
+}
+
+.user-details {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff7875;
+}
